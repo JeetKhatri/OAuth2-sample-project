@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BasicController {
 
-	@RequestMapping("/")
+	/*@RequestMapping("/")
 	public String welcome() {
 		return "welcome";
-	}
+	}*/
 
 	@RequestMapping("/user")
 	public Principal user(Principal principal) {
